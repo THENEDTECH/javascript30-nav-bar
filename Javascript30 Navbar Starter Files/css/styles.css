@@ -1,0 +1,407 @@
+
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    padding: 0;
+    color: hsl(0, 0%, 42%);
+    background-color: hsla(39, 62%, 92%, 0.945);
+    list-style: none;
+   
+}ul, ol {
+    list-style: none;
+}
+
+
+#img-hamburger, #img-close, .list-nav > li, #btn-login, .btn-cta {
+    cursor: pointer;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10 60 20 60px;
+    margin: 0 0 32px;
+    position: relative;
+    font-size: 14px;
+}
+.container{
+    padding: 20 60 20 60px;
+}
+header .logo {
+    display: inline-block;
+}
+
+header nav{
+    display: inline-block;
+    cursor: pointer;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li {
+    padding-right: 30px;
+}
+
+#nav-btn{
+    padding-top: inherit;
+}
+
+
+#btn-login{
+    color:  hsl(0, 0%, 42%);
+    background-color: transparent;
+    border: none;
+
+    outline: none;
+    box-sizing: none;
+    text-decoration: none;
+}
+
+.btn-cta{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.5rem;
+    background-color: rgb(1, 59, 1);
+    color: hsl(0, 0%, 100%);
+    border-radius: 4px;
+    width: 127.6;
+    height: 50.07;
+    font-size: 14px;
+}
+
+
+section .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+section #hero-main{
+    margin: 16 80 16 0px;
+}
+
+h2 {
+    font-weight: 750;
+    font-size: 58px;
+    color: hsl(0, 0%, 0%);
+    letter-spacing: 1px;
+    margin: 0;
+    
+}
+
+h2 > span {
+    color: hsl(39, 100%, 63%);
+    font-size: 58px;
+    padding: 16 0 16 0px;
+}
+section .btn-cta{
+    padding-top: 16px;
+}
+.review-company-img{
+    height: 24px;
+    width: 24px;
+    margin: 0 16 0 0px;
+    
+}
+
+section .div-reviews{
+    display: flex;
+    align-items: center;
+    margin: 0 16 0 0px;
+}
+
+section .div-reviews span{
+    margin: 0 16 0 0px;
+
+}
+
+#img-hero{
+    height: 350px;
+    width: 311px;
+}
+
+footer .container {
+    padding: 16 80 16 80px;
+    margin: 30 0 40 0px;
+    text-align: center;
+    font: 14px;
+}
+footer span {
+    display: block;
+    margin-bottom: 24px;
+    font-size: 16;
+    margin: 0 0 24px 0;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 14px;
+    margin: 0 30 0px;    
+}
+
+footer img {
+    width: 160px;
+    height: 48px;
+    margin-left: px;
+}
+
+
+
+/* **********************************
+******  CSS MEDIA QUERIES ********* 
+************************************/
+
+/* Start of Design for Small Desktops */
+@media screen and (max-width: 1440px) {
+
+    .hide{
+        display: none;
+    }
+   
+   
+
+}
+/* End of Design for Small Desktops */
+
+/* Start of Design for Tablets */
+@media screen and (max-width: 960px) {
+
+    #img-hamburger{
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+  
+    header ul, header #nav-btn {
+       display: none !important;
+    } 
+
+    header .container{
+       
+        padding: 30 30 30 30px;
+        margin: 0 0 32px;
+        
+    }
+
+    .container{
+        padding: 20 30 20 30px;
+    }
+    
+    h2 {
+        font-weight: 600;
+        font-size: 48px;
+        color: hsl(0, 0%, 0%);
+        letter-spacing: 0.5px;
+        margin: 0;
+        
+    }
+    
+    h2 > span {
+        color: hsl(39, 100%, 63%);
+        font-size: 35px;
+        padding: 16 0 16 0px;
+    }
+
+    section .div-reviews span{
+        margin: 0 16 0 0px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #img-hero{
+        height: 320px;
+        width: 295px;
+    }
+ 
+    section #hero-main {
+        margin: 16 80 16 0px;
+        font-size: 14.5px;
+    }
+
+    .btn-cta{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        padding: 1rem 1.5rem;
+        background-color: rgb(1, 59, 1);
+        color: hsl(0, 0%, 100%);
+        border-radius: 5px;
+        border-color: rgb(1, 59, 1);
+        width: 120.6;
+        height: 48.07;
+        font-size: 13px;
+        
+    }
+
+    .review-company-img{
+        height: 22px;
+        width: 22px;
+        margin: 0 16 0 0px;   
+    }
+    
+    footer .container {
+        padding: 16 30 16 30px;
+        margin: 30 0 40 0px;
+        text-align: center;
+        font: 14px;
+    }
+    footer span {
+        display: block;
+        margin-bottom: 24px;
+        font-size: 16;
+        margin: 0 0 24px 0;
+    }
+    
+    footer ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        font-size: 14px;
+        margin: 0 30 0px;    
+    }
+    
+    footer img {
+        width: 140px;
+        height: 40px;
+        margin-left: px;
+    }
+}
+/* @media screen and (max-width: 740px) {
+/*     footer ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        font-size: 14px;
+        margin: 0 30 0px;    
+        width: 400px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+} */
+
+/* End of Design for Tablets */
+
+/* Start of Design for Mobile Phones */
+@media screen and (max-width: 576px) {
+    #img-hamburger{
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+  
+    header ul, header #nav-btn {
+       display: none !important;
+    } 
+
+    header .container{
+       
+        padding: 30 30 0 30px;
+        margin: 0 0 32px;
+        
+    }
+
+    .container{
+        padding: 0 25 20 25px;
+    }
+    
+    h2 {
+        font-weight: 800;
+        font-size: 34px;
+        color: hsl(0, 0%, 0%);
+        letter-spacing: 0px;
+        margin: 0;
+        
+    }
+    
+    h2 > span {
+        font-weight: 780;
+        color: hsl(39, 100%, 63%);
+        font-size: 32px;
+        padding: 16 0 16 0px;
+    }
+
+    section .div-reviews span{
+        margin: 0 10 0 0px;
+        font-size: 14px;
+        font-weight: 2;
+    }
+
+    #img-hero{
+        display: none!important;
+    }
+ 
+    section #hero-main {
+        margin: 16 0 16 0px;
+        font-size: 14.5px;
+    }
+
+    .btn-cta{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        padding: 1rem 1.5rem;
+        background-color: rgb(1, 59, 1);
+        color: hsl(0, 0%, 100%);
+        border-radius: 5px;
+        border-color: rgb(1, 59, 1);
+        width: 120.6;
+        height: 48.07;
+        font-size: 13px;
+        
+    }
+
+    section .div-reviews {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 0px;
+    }
+
+    .review-company-img{
+        height: 20px;
+        width: 20px;
+        margin: 0 10 0 0px;   
+    }
+    
+    footer .container {
+        padding: 0 25 0 25px;
+        margin: 30 0 20 0px;
+        text-align: center;
+        font: 14px;
+    }
+    footer span {
+        display: block;
+        margin-bottom: 24px;
+        font-size: 13px;
+        margin: 0 0 24px 0;
+        font-weight: 600;
+    }
+    
+    footer ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        font-size: 14px;
+        margin: 0 15 0 15px;    
+    }
+    
+    footer img {
+        width: 140px;
+        height: 40px;
+        margin-left: px;
+    }
+
+   
+}
+/* End of Design for Mobile Phones */
+
+
+
